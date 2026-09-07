@@ -1,0 +1,16 @@
+# PostgreSQL / local database files
+*.dump
+*.backup
+*.sql.gz
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
