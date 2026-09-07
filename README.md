@@ -1,14 +1,14 @@
-# 📚 Bookstore Data Analysis
+# Bookstore Data Analysis
 
 A PostgreSQL-based data analysis project focused on exploring bookstore sales, customer behavior, product performance, author performance, and inventory levels.
 
-## 📌 Project Overview
+## Project Overview
 
 This project uses a relational bookstore database containing information about books, customers, and orders.
 
 The objective is to use SQL to extract meaningful business insights from the data while demonstrating practical SQL querying and analytical techniques.
 
-## 🗄️ Database Structure
+## Database Structure
 
 The database consists of three main tables:
 
@@ -55,7 +55,7 @@ Contains transaction information.
 - `Orders.Customer_ID` references `Customers.Customer_ID`.
 - `Orders.Book_ID` references `Books.Book_ID`.
 
-## 📊 Analysis Performed
+## Analysis Performed
 
 ### 1. Data Exploration
 
@@ -98,7 +98,7 @@ Contains transaction information.
 
 - Rank the top three most expensive Fantasy books using a window function
 
-## 🛠️ SQL Concepts Demonstrated
+## SQL Concepts Demonstrated
 
 - `SELECT`
 - `WHERE`
@@ -121,7 +121,7 @@ Contains transaction information.
 - Window Functions
 - `RANK()`
 
-## 💡 Key Business Insights
+## Key Business Insights
 
 - The highest-priced book in the catalog is **"Proactive system-worthy orchestration"**, priced at **$49.98**.
 - The bookstore generated **$75,628.66** in recorded revenue.
@@ -133,7 +133,7 @@ Contains transaction information.
 - **Patrick Contreras** is the top-selling author in the dataset with **28 books sold**.
 - Inventory analysis shows that remaining stock should be evaluated alongside historical sales demand when making replenishment decisions.
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 Bookstore-Data-Analysis/
@@ -150,7 +150,7 @@ Bookstore-Data-Analysis/
     └── Orders.csv
 ```
 
-## 🚀 How to Use
+## How to Use
 
 1. Clone the repository.
 2. Create a PostgreSQL database.
@@ -160,6 +160,6 @@ Bookstore-Data-Analysis/
 
 > **Note:** The `COPY` commands in the SQL file currently use local file paths. These paths may need to be updated according to the PostgreSQL environment and file locations on the user's system.
 
-## 👤 Author
+## Author
 
 **Aman Alam**
